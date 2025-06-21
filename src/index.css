@@ -1,0 +1,19 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.tabs a.active{
+    @apply bg-gradient-to-r from-[#6c54ad] to-[#f04762]
+}
+
+.nav-link a.active{
+    @apply text-pink-600
+}
+
+.nav-link a{
+    font-size: large;
+}
+
